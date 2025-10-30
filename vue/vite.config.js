@@ -7,4 +7,8 @@ export default defineConfig({
   server: {
     allowedHosts: ['miam-miam-mwn0.onrender.com']
   },
+  build: {
+    chunkSizeWarningLimit: 2000
+  }
 })
+
