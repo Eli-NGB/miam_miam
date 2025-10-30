@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateSignupFormPassword, creerUser } from '../services/user';
+import { validatesignupFormPassword, creerUser } from '../services/user';
 
 // ✅ Composant Loader global avec overlay semi-transparent
 const LoadingOverlay = ({ visible, message = "Création du compte..." }) => {
