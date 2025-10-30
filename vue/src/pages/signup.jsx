@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import SignupFormName from '../components/signupFormName';
-import SignupFormVerification from '../components/signupFormVerification';
-import SignupFormPassword from '../components/SignupFormPassword';
+import signupFormName from '../components/signupFormName';
+import signupFormVerification from '../components/signupFormVerification';
+import signupFormPassword from '../components/signupFormPassword';
 import ChoixClientResto from '../components/choixClientResto';
 import { loadUserFromStorage } from '../services/user';
 import '../assets/styles/signup.css';
